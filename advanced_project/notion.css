@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    margin-top: 1rem;
+    position: fixed;
+    width: 100%;
+    background-color: white; /* or match your site’s background */
+    z-index: 1000;
+  
+    padding: 0 2rem 1rem 1rem;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.btn{
+    padding: 0.2rem 1rem;
+    font-weight: 700;
+    color: rgb(25, 25, 24);
+    cursor: pointer;
+}
+
+.btn:hover{
+     background-color: rgb(248, 244, 241);
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 0;
+}
+
+.btn-primary{
+    color: white;
+    background-color: black;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn-primary:hover{
+    background-color: rgb(66, 62, 62);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    max-width: 1200px;
+     width: 100%;
+     margin: 0 auto;
+}
+
+.home1{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    padding: 2rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.home2{
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+}
+
+.home-h1{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-size: 5.4rem;
+    line-height: 5.8rem;
+}
+
+.home-p1{
+    display: block;
+    font-size: 2rem;
+    font-weight: 550;
+    color: rgb(69, 64, 64);
+}
+
+.btns{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+.btnss{
+    font-size: 1.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.btnss1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 131, 226);
+    border: 1px solid rgb(35, 131, 226);
+}
+
+.btnss2{
+    background-color: rgb(235, 245, 254);
+    border: 1px solid rgb(235, 245, 254);
+    color: rgb(35, 131, 226);
+}
+
+.btnss1:hover{
+    background-color: rgb(27, 107, 186);
+}
+
+.btnss2:hover{
+    background-color: rgb(212, 219, 226);
+}
+
+.Ai {
+  width: 100%;
+  background-color: #fff;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ai-container {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.ai-title {
+  font-size: 1.6rem;
+  color: #6b7280;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.logo-row img {
+  object-fit: contain;
+  max-width: 100px;
+}
+
+.feature-cards-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature-card {
+  flex: 1 1 48%;
+  background-color: rgb(241, 248, 231);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+   transition: border-color 0.3s ease; 
+  cursor: pointer; 
+  
+}
+
+.card1{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.feature-card i{
+    font-size: 1.8rem;
+    
+}
+
+.card11{
+    display: inline-block;
+    flex: 1 1 48%;
+    font-size: 2.2rem;
+}
+
+.card12{
+   flex: 1 1 2%;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.feature-card h1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img{
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    bottom: -3rem;
+    right: -5rem;
+    box-shadow: -1px -1px 30px -20px;
+    border-top-left-radius: 5px;
+}
+
+.f2{
+    background-color: rgb(203, 251, 251);
+}
+
+.feature-card:hover{
+    border-color: rgb(247, 155, 155);
+}
+
+.f2:hover{
+    border-color:  rgb(39, 243, 243);
+}
+
+.feature-card2{
+    flex-direction: row-reverse;
+}
+
+.achiv{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.achiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.achivh1{
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: "Lyon Text", Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN";
+    color: black;
+}
+
+.achivh2{
+    color: black;
+    font-weight: 800;
+    font-family: "Lyon Text", Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN";
+    font-size: 2.6rem;
+}
+
+.team{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team1{
+    font-size: 3.6rem;
+    color: black;
+    font-weight: 800;
+    /* font-family: "Lyon Text", Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN"; */
+
+}
+
+.team2{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    padding-top: 0.8rem;
+}
+
+.teambtn{
+    font-weight: 500;
+    color: rgb(94, 94, 90);
+    padding: 0.2rem 2rem;
+}
+
+.teambtn:hover{
+    box-shadow: none;
+    border-radius: 30px;
+    border-color: rgb(225, 239, 252);
+
+}
+
+.team3 img{
+    object-fit: contain;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.team4{
+    object-fit: contain;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 2rem 0 2rem;
+}
+
+.team h3{
+    padding-top: 10rem;
+    font-size: 1.8rem;
+}
+
+.lastfinal{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+
+}
+
+.lastfinal video{
+    max-width: 700px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.lastfinal h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.lastfinal p{
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.btnss3{
+    border: none;
+    background-color: white;
+}
+
+.btnss3:hover{
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: rgb(10, 64, 118);
+}
+
+.foot{
+    max-width: 1266px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20rem;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.foot11{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.foot1 p{
+    font-size: 1.5rem;
+}
+
+.foot1 img{
+    max-width: 150px;
+    position: relative;
+    bottom: 3rem;
+    right: 2.3rem;
+}
+
+.foot2{
+    display: flex;
+    flex: 1 1 50%;
+    gap: 15rem;
+}
+
+.foot2 h1{
+    margin-bottom: 1rem;
+}
+
+.foot2 ul{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.foot22:hover{
+    text-decoration: underline;
+     text-decoration-thickness: 1.5px;
+}
