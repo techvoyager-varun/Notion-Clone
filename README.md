@@ -38,4 +38,6 @@ This project was built to:
 Want to connect or share feedback?
 
 📧 varunrawat5758@gmail.com
-💼 LinkedIn
+💼 LinkedIn(https://www.linkedin.com/in/varun-rawat072)
+
+
